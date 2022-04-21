@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+p{
+  font-size: 2.5rem;
+}
+
+table{
+  background: rgb(205, 250, 252);
+  border-collapse: collapse;
+}
+
+tr{
+  display: flex;
+}
+
+table td{
+  border: 1px solid black;
+  width: 7rem;
+  height: 7rem;
+}
+
+table p{
+  height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 3rem;
+opacity: 0;
+
+transition: opacity 100ms;
+}
+
