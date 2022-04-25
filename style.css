@@ -12,6 +12,7 @@ p{
 table{
   background: rgb(205, 250, 252);
   border-collapse: collapse;
+  margin: auto;
 }
 
 tr{
